@@ -1,0 +1,13 @@
+{
+  "id" : "bd8ca558-d3d1-4a2b-9afb-e3b83ef251f1",
+  "request" : {
+    "url" : "/check",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"fraud\":true,\"message\":\"Stolen Card\"}",
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "bd8ca558-d3d1-4a2b-9afb-e3b83ef251f1"
+}
